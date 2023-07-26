@@ -50,3 +50,19 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.container__titulo {
+    display: none;
+}
+
+.container__botao {
+    display: none;
+}
+
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer{
+    background-image: url("..img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo{
+    background: var(--azul-degrade);
+}
