@@ -67,6 +67,13 @@
     background: var(--azul-degrade);
 }
 
+.opções__botão{ 
+    display: none; 
+}
+.opções{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .container__titulo,
@@ -136,5 +143,9 @@
     color: #d3b5f6;
     text-decoration: none;
     }
-    
+ 
+    .container-transparente{
+        display: none;
     }
+}
+
